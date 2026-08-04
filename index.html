@@ -269,6 +269,13 @@
   .dl-page .dl-container{box-shadow:none;margin-top:0;}
 }
 </style>
+
+<style>
+#introOverlay{position:fixed;inset:0;background:#000;z-index:100000;display:flex;align-items:center;justify-content:center;flex-direction:column}
+#introOverlay video{width:100%;height:100%;object-fit:cover}
+#skipIntro{position:absolute;top:20px;right:20px;padding:10px 18px;border:none;border-radius:999px;background:rgba(255,255,255,.85);cursor:pointer;font-weight:bold}
+.fade-out{opacity:0;transition:opacity .8s}
+</style>
 </head>
 
 <body class="bg-white dark:bg-slate-900 dark:text-gray-100 font-body antialiased">
